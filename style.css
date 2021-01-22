@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+.cards{
+     max-width: 1100px;
+     text-align: center;
+     margin: 0 auto;
+}
+.cards h1{
+     font-size: 40px;
+     margin: 20px 0 30px 0;
+     text-transform: uppercase;
+}
+.content{
+     height: auto;
+     max-width: 300px;
+     min-width: auto;
+     display: inline-block;
+     border: 2px solid black;
+     border-radius: 4px;
+     margin: 20px;
+     padding: 20px;
+    
+}
+.fab{
+     font-size: 50px;
+     padding: 10px;
+}
+.content h2{
+     font-size: 30px;
+     margin: 0 0 10px 0;
+}
+.content p{
+     font-size: 18px;
+     margin: 0 0 20px 0;
+}
+.content a{
+     padding: 5px 20px;
+     margin: 0 0 20px 0;
+     background: orangerd;
+     color: black;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-size: 20px;
+     border: 2px solid black;
+     border-radius: 20px;
+     
+}
+.content-1:hover{
+     background: blue;
+     border: 2px solid skyblue;
+     color: white;
+     transition: all 0.3s ease-out;
+     
+}
+.content-1 a:hover{
+     background: white;
+     border: 2px solid rgb(19, 16, 207);
+     transition: 0.5s;
+}
+.content-2:hover{
+     background: skyblue;
+     border: 2px solid rgb(24, 111, 133);
+     color: rgb(255, 241, 241);
+     transition: all 0.3s ease-out;
+     
+}
+.content-2 a:hover{
+     background: white;
+     border: 2px solid rgb(24, 111, 133);
+     transition: 0.5s;
+}
+.content-3:hover{
+     background: rgb(122, 14, 117);
+     border: 2px solid rgb(97, 13, 90);
+     color: white;
+     transition: all 0.3s ease-out;
+     
+}
+.content-3 a:hover{
+     background: white;
+     border: 2px solid rgb(173, 33, 162);
+     transition: 0.5s;
+}
